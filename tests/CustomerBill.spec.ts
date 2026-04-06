@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { CustomerPage } from './customer-page';
-import { BillPage } from './bill-page';
+import { CustomerPage } from '../pages/customer-page';
+import { BillPage } from '../pages/bill-page';
 
 test.describe('Scrap Shop Management System - Integration Test', () => {
   let customerPage: CustomerPage;
