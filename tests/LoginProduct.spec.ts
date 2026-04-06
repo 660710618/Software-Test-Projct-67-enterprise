@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './pages/login_page';
-import { ProductPage } from './pages/product_page';
+import { LoginPage } from '../pages/login-page';
+import { ProductPage } from '../pages/product-page';
 
 test.describe('Scrap Shop System', () => {
 
